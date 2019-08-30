@@ -1,7 +1,7 @@
 CLI_CONFIG = {
         'addr': {
             'options': ['-a'],
-            'default': 127.0.0.1,
+            'default': '127.0.0.1',
             'help': 'The address to present the rpc server on',
             }, 
         'port': {
