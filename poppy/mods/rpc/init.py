@@ -21,7 +21,7 @@ async def handle(hub, request):
     data = await request.json()
     ref = data.get('ref', None)
     kwargs = data.get('kwargs', {})
-    func = hub.tools.ref.last(ref)
+    func = hub.pop.ref.last(ref)
     if func:
         ret = await func(**kwargs)
     else:
