@@ -3,4 +3,5 @@
 import pop.hub
 
 hub = pop.hub.Hub()
-hub.pop.sub.add('poppy.mods.poppy', contracts_pypath='poppy.contracts.poppy')
+hub.pop.sub.add('poppy.poppy')
+
